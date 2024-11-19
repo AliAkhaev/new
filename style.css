@@ -1,14 +1,15 @@
-.rer{
-   width: 400px;
-   height: 300px;
-   border: 3px solid black;
-}
 h1{
     text-align: center;
 }
-div{
-  color: red;
+.rer{
+  display: flex;
 }
 body{
     background-color: rgba(15, 5, 148, 0.212);
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
 }
